@@ -1,0 +1,161 @@
+/*google fonts import*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Playfair+Display|Poiret+One');
+
+/*main body*/
+.card-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 150px;
+    width: 50%;
+    height: auto;
+}
+
+.a-thumbnail {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.title  {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 20px
+}
+
+.text {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+}
+
+.clearfix:after { 
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/*Nav bar*/
+.brand {
+    font-family: 'Cinzel Decorative', cursive !important;
+    font-size: 50px;
+}
+
+        nav.main-navigation {
+            position: relative;
+        }
+
+        nav.main-navigation ul.nav-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+            text-align: right;
+        }
+
+        .nav-list li.nav-list-item {
+            display: inline-block;
+            line-height: 30px;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        a.nav-link {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+            cursor: pointer;
+            position: relative;
+            color: #404040;
+        }
+
+        @keyframes FadeIn {
+            0% {
+                opacity: 0;
+                transition-duration: 0.8s;
+                transform: translateY(-10px);
+            }
+
+
+            100% {
+                opacity: 1; 
+                transform: translateY(0);
+                pointer-events: auto;
+                transition: cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+
+        .nav-list li {
+            animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+            animation-fill-mode: both;
+        }
+
+        .nav-list li:nth-child(1) {
+            animation-delay: .3s;
+        }
+
+        .nav-list li:nth-child(2) {
+            animation-delay: .6s;
+        }
+
+        .nav-list li:nth-child(3) {
+            animation-delay: .9s;
+        }
+
+        .nav-list li:nth-child(4) {
+            animation-delay: 1.2s;
+        }
+
+
+
+/*Footer*/
+.footer{
+    background-color: #BCE7FF;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+
+.text-center a {
+    color: #386D90;
+}
+
+
+.social:hover {
+     transform: scale(1.1);
+ }
+ .social {
+     transform: scale(0.8);
+     transition-duration: 0.5s;
+ }
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-ins:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+.footer .footer-copyright {
+    position: relative;
+    bottom:-30px;
+    font-size: 12px;
+}
+
+.center-block {
+    position: relative;
+    bottom:-20px;
+}
